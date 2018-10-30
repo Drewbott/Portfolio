@@ -1,13 +1,16 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
   <title>Drew Norris Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/style.css">
 
@@ -15,30 +18,137 @@
 </head>
 
 <body>
-        <div class="hero-image">
-                <div class="hero-text">
-                  <h1>Drew Norris</h1>
-                  <p>Full-Stack Web Developer</p>
-                  <ul class="nav justify-content-center">
-                        <li class="nav-item one">
-                          <a class="nav-link active" href="#">Active</a>
-                        </li>
-                        <li class="nav-item two">
-                          <a class="nav-link" href="https://github.com/drewbott" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-                        </li>
-                        <li class="nav-item three">
-                          <a class="nav-link" href="https://www.linkedin.com/in/andrewmnorris" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-                        </li>
-                        <hr />
-                      </ul>
+  <div class="hero-image" id="sf">
+    <div class="hero-text">
+      <h1>Drew Norris</h1>
+      <p>Full-Stack Web Developer</p>
+      <ul class="nav justify-content-center">
+        <li class="nav-item one">
+          <a class="nav-link" href="mailto:andrewmnorris@gmail.com"><i class="far fa-envelope fa-3x"></i></a>
+        </li>
+        <li class="nav-item two">
+          <a class="nav-link" href="https://github.com/drewbott" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+        </li>
+        <li class="nav-item three">
+          <a class="nav-link" href="https://www.linkedin.com/in/andrewmnorris" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+        </li>
+        <hr />
+      </ul>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <section id="about">
+      <h1 class="section-title">About Me</h1>
+      <hr>
+      <br>
+      <img src="https://via.placeholder.com/200" id="my-pic">
+      <div class="text">
+        <p>My name is Drew Norris, I am a full stack developer with a background in live video production. I am
+          passionate about collaborating on
+          technical and creative teams to build useful, beautiful web applications.</p>
+        <p>I just earned a certificate from UC Berkeley Extension Coding Bootcamp, emphasizing on the MERN stack. This
+          was an intense, life-changing experience
+          that not only taught me the skills to become a web developer but allowed me to flex my existing project
+          management skills during the group projects.
+          The course covered HTML5, CSS3, Bootstrap, JavaScript, JQuery, Node.js, Express.js, React.js, MySQL, MongoDB.
+        </p>
+        <p>I am currently freelancing and working on some passion projects and am active in several coding groups both
+          on and offline.</p>
+      </div>
+    </section>
+  </div>
+  <br>
+  <div class="hero-image" id="redwoods">
+
+    <div class="container">
+      <section id="projects">
+        <h1 id="projects-title">Projects</h1>
+        <hr>
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card-deck">
+              <div class="card">
+                <a href="https://drewbott.github.io/Marvel-Hangman/" target="_block"><img class="card-img-top" src="./assets/images/hangman.png" alt="Card image cap"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Marvel Hangman</h5>
+                  <p class="card-text">Classic hangman - choose a letter and get your guesses tracked to guess the
+                    Marvel character</p>
+                  <h6 class="card-title">Technologies used:</h5>
+                  <p class="card-text">HTML/CSS, Bootstrap, JavaScript</p>
+                  <a class="btn btn-primary" href="https://github.com/Drewbott/Marvel-Hangman"><i class="fab fa-github-square fa-2x"></i></a>
                 </div>
               </div>
-            
+              <div class="card">
+                  <a href="https://drewbott.github.io/TriviaGame/" target="_block"><img class="card-img-top" src="./assets/images/trivia.png" alt="Card image cap"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Oakland A's Trivia</h5>
+                    <p class="card-text">Beat the timer to answer all of the questions.</p>
+                    <h6 class="card-title">Technologies used:</h5>
+                    <p class="card-text">HTML/CSS, Bootstrap, JavaScript, JQuery</p>
+                    <a class="btn btn-primary" href="https://github.com/Drewbott/TriviaGame"><i class="fab fa-github-square fa-2x"></i></a>
+                  </div>
+                </div>
+                <div class="card">
+                    <a href="https://giphy.com/gifs/PMUA3xCchkitCDDpyA/fullscreen" target="_block"><img class="card-img-top" src="./assets/images/bamazon.png" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Bam!azon</h5>
+                      <p class="card-text">A CLI app that allows users to purchase items from an inventory and updates a database. Because it is a back-end application, a gif demonstrates the functionality. <strong>Technologies used:</strong> Node.js, MySQL</p>
+                      <a class="btn btn-primary" href="https://github.com/Drewbott/bamazon"><i class="fab fa-github-square fa-2x"></i></a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card-deck">
+                <div class="card">
+                    <a href="https://drewbott.github.io/Marvel-Hangman/" target="_block"><img class="card-img-top" src="./assets/images/hangman.png" alt="Card image cap"></a>
+                    <div class="card-body">
+                      <h5 class="card-title">Marvel Hangman</h5>
+                      <p class="card-text">Classic hangman - choose a letter and get your guesses tracked to guess the
+                        Marvel character</p>
+                      <h6 class="card-title">Technologies used:</h5>
+                      <p class="card-text">HTML/CSS, Bootstrap, JavaScript</p>
+                      <a class="btn btn-primary" href="https://github.com/Drewbott/Marvel-Hangman"><i class="fab fa-github-square fa-2x"></i></a>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <a href="https://drewbott.github.io/Marvel-Hangman/" target="_block"><img class="card-img-top" src="./assets/images/hangman.png" alt="Card image cap"></a>
+                      <div class="card-body">
+                        <h5 class="card-title">Marvel Hangman</h5>
+                        <p class="card-text">Classic hangman - choose a letter and get your guesses tracked to guess the
+                          Marvel character</p>
+                        <h6 class="card-title">Technologies used:</h5>
+                        <p class="card-text">HTML/CSS, Bootstrap, JavaScript</p>
+                        <a class="btn btn-primary" href="https://github.com/Drewbott/Marvel-Hangman"><i class="fab fa-github-square fa-2x"></i></a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://drewbott.github.io/Marvel-Hangman/" target="_block"><img class="card-img-top" src="./assets/images/hangman.png" alt="Card image cap"></a>
+                        <div class="card-body">
+                          <h5 class="card-title">Marvel Hangman</h5>
+                          <p class="card-text">Classic hangman - choose a letter and get your guesses tracked to guess the
+                            Marvel character</p>
+                          <h6 class="card-title">Technologies used:</h5>
+                          <p class="card-text">HTML/CSS, Bootstrap, JavaScript</p>
+                          <a class="btn btn-primary" href="https://github.com/Drewbott/Marvel-Hangman"><i class="fab fa-github-square fa-2x"></i></a>
+                        </div>
+                      </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
 
+<footer></footer>
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </body>
+
 </html>
