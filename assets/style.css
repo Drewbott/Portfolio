@@ -17,6 +17,7 @@ hr {
     height: 100%;
 
     /* Position and center the image to scale nicely on all screens */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,9 +29,10 @@ hr {
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://pictures.ozy.com/pictures/1500xany/4/8/9/116489_humboldt_redwoods_state_park.jpg");
 
      /* Set a specific height */
-     height: 1040px;
+     height: 1240px;
  
      /* Position and center the image to scale nicely on all screens */
+     background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -104,4 +106,13 @@ hr {
     position: absolute;
     bottom: 4px;
     left: 146px;
+}
+
+footer {
+    width: 100%;
+    background-color: #373635;
+    padding-top: 20px;
+}
+.navbar {
+    background-color: #373635 !important;
 }
