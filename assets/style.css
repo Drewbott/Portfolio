@@ -108,11 +108,61 @@ hr {
     left: 146px;
 }
 
-footer {
-    width: 100%;
-    background-color: #373635;
+#contact-title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
     padding-top: 20px;
 }
+.email-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+
+}
+#name {
+    border-radius: 3px;
+    border: 1px solid white;
+}
+#email {
+    border-radius: 3px;
+    border: 1px solid white;
+}
+#message {
+    margin-bottom: 10px;
+    height: 200px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+.email-form button{
+    height: 40px;
+    border-radius: 3px;
+    background-color:  #747271 !important;
+    border: 2px solid #747271;
+    color: white;
+    font-size: 18px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    text-align: center;
+}
+label {
+    color: white;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #747271;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
 .navbar {
-    background-color: #373635 !important;
+    background-color: #747271 !important;
+}
+.links {
+    color: white;
 }
