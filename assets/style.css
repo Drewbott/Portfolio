@@ -14,7 +14,7 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/SF.jpg");
 
     /* Set a specific height */
-    height: 100%;
+    height: 75%;
 
     /* Position and center the image to scale nicely on all screens */
     background-attachment: fixed;
@@ -29,7 +29,7 @@ hr {
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://pictures.ozy.com/pictures/1500xany/4/8/9/116489_humboldt_redwoods_state_park.jpg");
 
      /* Set a specific height */
-     height: 1240px;
+     height: 1024px;
  
      /* Position and center the image to scale nicely on all screens */
      background-attachment: fixed;
@@ -166,6 +166,8 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 50px;
+    position: relative;
+    bottom: 0;
 }
 .navbar {
     background-color: #747271 !important;
@@ -175,4 +177,51 @@ footer {
 }
 #email-address {
     text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .card-deck {
+        display: block;
+
+    }
+    /* #projects {
+        height: 00px;
+    } */
+    .card{
+        padding-bottom: 5px;
+    }
+    .github {
+        margin: 0 auto;
+        display: flex;
+        position: absolute;
+        left: 450px;
+    
+}
+    #redwoods {
+        height: 2750px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+
+    }
+}
+
+@media (max-width: 450px) {
+
+.card-deck {
+    display: block;
+}
+.github {
+    left: 175px;
+}
+#redwoods {
+    height: 3250px;
+}
+.nav-link {
+    padding: 8px;
+    position: relative;
+    left: 20px;
+}
 }
