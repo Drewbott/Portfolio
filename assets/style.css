@@ -29,7 +29,7 @@ hr {
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://pictures.ozy.com/pictures/1500xany/4/8/9/116489_humboldt_redwoods_state_park.jpg");
 
      /* Set a specific height */
-     height: 1024px;
+     height: 1250px;
  
      /* Position and center the image to scale nicely on all screens */
      background-attachment: fixed;
@@ -208,13 +208,17 @@ footer {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 
 .card-deck {
     display: block;
 }
 .github {
-    left: 175px;
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    left: 200px;
+
 }
 #redwoods {
     height: 3250px;
